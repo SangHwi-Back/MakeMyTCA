@@ -24,3 +24,9 @@ struct Effect<Action>{
         self.operation = operation
     }
 }
+
+extension Effect {
+    @inlinable static var none: Self { Self(operation: .none) }
+}
+
+typealias EffectOf<R: Reducer> = Effect<R.Action>

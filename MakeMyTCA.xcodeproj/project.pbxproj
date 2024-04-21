@@ -19,6 +19,8 @@
 		A5A28F742BD4F6E300B113B5 /* Effect.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A28F732BD4F6E300B113B5 /* Effect.swift */; };
 		A5A28F762BD4F76E00B113B5 /* Send.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A28F752BD4F76E00B113B5 /* Send.swift */; };
 		A5A28F792BD500D000B113B5 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A28F782BD500D000B113B5 /* ContentModel.swift */; };
+		A5A28F7B2BD5209300B113B5 /* ContentReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A28F7A2BD5209300B113B5 /* ContentReducer.swift */; };
+		A5A28F7D2BD521A400B113B5 /* Reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A28F7C2BD521A400B113B5 /* Reduce.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		A5A28F732BD4F6E300B113B5 /* Effect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Effect.swift; sourceTree = "<group>"; };
 		A5A28F752BD4F76E00B113B5 /* Send.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Send.swift; sourceTree = "<group>"; };
 		A5A28F782BD500D000B113B5 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
+		A5A28F7A2BD5209300B113B5 /* ContentReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentReducer.swift; sourceTree = "<group>"; };
+		A5A28F7C2BD521A400B113B5 /* Reduce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reduce.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 			children = (
 				A5A28F452BD4EF5E00B113B5 /* MakeMyTCAApp.swift */,
 				A5A28F472BD4EF5E00B113B5 /* ContentView.swift */,
+				A5A28F7A2BD5209300B113B5 /* ContentReducer.swift */,
 				A5A28F782BD500D000B113B5 /* ContentModel.swift */,
 				A5A28F492BD4EF5E00B113B5 /* Item.swift */,
 				A5A28F772BD4FCD300B113B5 /* Core */,
@@ -144,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				A5A28F712BD4F67800B113B5 /* Reducer.swift */,
+				A5A28F7C2BD521A400B113B5 /* Reduce.swift */,
 				A5A28F732BD4F6E300B113B5 /* Effect.swift */,
 				A5A28F752BD4F76E00B113B5 /* Send.swift */,
 			);
@@ -284,6 +290,8 @@
 				A5A28F762BD4F76E00B113B5 /* Send.swift in Sources */,
 				A5A28F482BD4EF5E00B113B5 /* ContentView.swift in Sources */,
 				A5A28F4A2BD4EF5E00B113B5 /* Item.swift in Sources */,
+				A5A28F7D2BD521A400B113B5 /* Reduce.swift in Sources */,
+				A5A28F7B2BD5209300B113B5 /* ContentReducer.swift in Sources */,
 				A5A28F722BD4F67800B113B5 /* Reducer.swift in Sources */,
 				A5A28F792BD500D000B113B5 /* ContentModel.swift in Sources */,
 				A5A28F462BD4EF5E00B113B5 /* MakeMyTCAApp.swift in Sources */,
