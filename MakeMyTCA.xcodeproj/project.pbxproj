@@ -15,6 +15,10 @@
 		A5A28F592BD4EF6000B113B5 /* MakeMyTCATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A28F582BD4EF6000B113B5 /* MakeMyTCATests.swift */; };
 		A5A28F632BD4EF6000B113B5 /* MakeMyTCAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A28F622BD4EF6000B113B5 /* MakeMyTCAUITests.swift */; };
 		A5A28F652BD4EF6000B113B5 /* MakeMyTCAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A28F642BD4EF6000B113B5 /* MakeMyTCAUITestsLaunchTests.swift */; };
+		A5A28F722BD4F67800B113B5 /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A28F712BD4F67800B113B5 /* Reducer.swift */; };
+		A5A28F742BD4F6E300B113B5 /* Effect.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A28F732BD4F6E300B113B5 /* Effect.swift */; };
+		A5A28F762BD4F76E00B113B5 /* Send.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A28F752BD4F76E00B113B5 /* Send.swift */; };
+		A5A28F792BD500D000B113B5 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A28F782BD500D000B113B5 /* ContentModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,10 @@
 		A5A28F5E2BD4EF6000B113B5 /* MakeMyTCAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakeMyTCAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A28F622BD4EF6000B113B5 /* MakeMyTCAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeMyTCAUITests.swift; sourceTree = "<group>"; };
 		A5A28F642BD4EF6000B113B5 /* MakeMyTCAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeMyTCAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A5A28F712BD4F67800B113B5 /* Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
+		A5A28F732BD4F6E300B113B5 /* Effect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Effect.swift; sourceTree = "<group>"; };
+		A5A28F752BD4F76E00B113B5 /* Send.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Send.swift; sourceTree = "<group>"; };
+		A5A28F782BD500D000B113B5 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +106,9 @@
 			children = (
 				A5A28F452BD4EF5E00B113B5 /* MakeMyTCAApp.swift */,
 				A5A28F472BD4EF5E00B113B5 /* ContentView.swift */,
+				A5A28F782BD500D000B113B5 /* ContentModel.swift */,
 				A5A28F492BD4EF5E00B113B5 /* Item.swift */,
+				A5A28F772BD4FCD300B113B5 /* Core */,
 				A5A28F4B2BD4EF6000B113B5 /* Assets.xcassets */,
 				A5A28F4D2BD4EF6000B113B5 /* Preview Content */,
 			);
@@ -128,6 +138,16 @@
 				A5A28F642BD4EF6000B113B5 /* MakeMyTCAUITestsLaunchTests.swift */,
 			);
 			path = MakeMyTCAUITests;
+			sourceTree = "<group>";
+		};
+		A5A28F772BD4FCD300B113B5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A5A28F712BD4F67800B113B5 /* Reducer.swift */,
+				A5A28F732BD4F6E300B113B5 /* Effect.swift */,
+				A5A28F752BD4F76E00B113B5 /* Send.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,8 +280,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5A28F742BD4F6E300B113B5 /* Effect.swift in Sources */,
+				A5A28F762BD4F76E00B113B5 /* Send.swift in Sources */,
 				A5A28F482BD4EF5E00B113B5 /* ContentView.swift in Sources */,
 				A5A28F4A2BD4EF5E00B113B5 /* Item.swift in Sources */,
+				A5A28F722BD4F67800B113B5 /* Reducer.swift in Sources */,
+				A5A28F792BD500D000B113B5 /* ContentModel.swift in Sources */,
 				A5A28F462BD4EF5E00B113B5 /* MakeMyTCAApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
