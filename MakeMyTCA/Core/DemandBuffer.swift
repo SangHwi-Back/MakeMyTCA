@@ -104,11 +104,18 @@ extension UnsafeMutablePointer where Pointee == os_unfair_lock_s {
     }
 }
 
-//extension NSRecursiveLock {
+extension NSRecursiveLock {
 //    @inlinable @discardableResult
 //    func sync<R>(work: () -> R) -> R {
 //        self.lock()
 //        defer { self.unlock() }
 //        return work()
 //    }
-//}
+    
+    @inlinable @discardableResult
+    func sync<R>(work: () throws -> R) rethrows -> R {
+        self.lock()
+        defer { self.unlock() }
+        return try work()
+    }
+}

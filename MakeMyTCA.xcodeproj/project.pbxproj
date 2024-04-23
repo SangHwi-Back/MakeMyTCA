@@ -25,6 +25,13 @@
 		A5A28F792BD500D000B113B5 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A28F782BD500D000B113B5 /* ContentModel.swift */; };
 		A5A28F7B2BD5209300B113B5 /* ContentReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A28F7A2BD5209300B113B5 /* ContentReducer.swift */; };
 		A5A28F7D2BD521A400B113B5 /* Reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A28F7C2BD521A400B113B5 /* Reduce.swift */; };
+		A5A28F7F2BD7363D00B113B5 /* ViewStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A28F7E2BD7363D00B113B5 /* ViewStore.swift */; };
+		A5A28F812BD7398A00B113B5 /* CasePathable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A28F802BD7398A00B113B5 /* CasePathable.swift */; };
+		A5A28F832BD73CE200B113B5 /* AnyCasePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A28F822BD73CE200B113B5 /* AnyCasePath.swift */; };
+		A5A28F852BD7A38C00B113B5 /* EmptyReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A28F842BD7A38C00B113B5 /* EmptyReducer.swift */; };
+		A5A28F872BD7A6F100B113B5 /* StoreTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A28F862BD7A6F100B113B5 /* StoreTask.swift */; };
+		A5A28F892BD7D51600B113B5 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A28F882BD7D51600B113B5 /* Box.swift */; };
+		A5A28F8B2BD7DEE400B113B5 /* LockIsolated.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A28F8A2BD7DEE400B113B5 /* LockIsolated.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +73,13 @@
 		A5A28F782BD500D000B113B5 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 		A5A28F7A2BD5209300B113B5 /* ContentReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentReducer.swift; sourceTree = "<group>"; };
 		A5A28F7C2BD521A400B113B5 /* Reduce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reduce.swift; sourceTree = "<group>"; };
+		A5A28F7E2BD7363D00B113B5 /* ViewStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewStore.swift; sourceTree = "<group>"; };
+		A5A28F802BD7398A00B113B5 /* CasePathable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasePathable.swift; sourceTree = "<group>"; };
+		A5A28F822BD73CE200B113B5 /* AnyCasePath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyCasePath.swift; sourceTree = "<group>"; };
+		A5A28F842BD7A38C00B113B5 /* EmptyReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyReducer.swift; sourceTree = "<group>"; };
+		A5A28F862BD7A6F100B113B5 /* StoreTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreTask.swift; sourceTree = "<group>"; };
+		A5A28F882BD7D51600B113B5 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		A5A28F8A2BD7DEE400B113B5 /* LockIsolated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockIsolated.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,8 +176,15 @@
 				A5A28F732BD4F6E300B113B5 /* Effect.swift */,
 				A5A28F752BD4F76E00B113B5 /* Send.swift */,
 				1B97B7522BD5EB15003813C8 /* Store.swift */,
+				A5A28F862BD7A6F100B113B5 /* StoreTask.swift */,
+				A5A28F842BD7A38C00B113B5 /* EmptyReducer.swift */,
+				A5A28F802BD7398A00B113B5 /* CasePathable.swift */,
+				A5A28F822BD73CE200B113B5 /* AnyCasePath.swift */,
 				1B97B7542BD5EB5E003813C8 /* RootStore.swift */,
+				A5A28F8A2BD7DEE400B113B5 /* LockIsolated.swift */,
+				A5A28F882BD7D51600B113B5 /* Box.swift */,
 				1B97B7562BD5F47B003813C8 /* DemandBuffer.swift */,
+				A5A28F7E2BD7363D00B113B5 /* ViewStore.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -300,17 +321,24 @@
 			files = (
 				A5A28F742BD4F6E300B113B5 /* Effect.swift in Sources */,
 				A5A28F762BD4F76E00B113B5 /* Send.swift in Sources */,
+				A5A28F892BD7D51600B113B5 /* Box.swift in Sources */,
+				A5A28F852BD7A38C00B113B5 /* EmptyReducer.swift in Sources */,
 				1B97B7592BD61F6E003813C8 /* Array+Extensions.swift in Sources */,
+				A5A28F812BD7398A00B113B5 /* CasePathable.swift in Sources */,
 				A5A28F482BD4EF5E00B113B5 /* ContentView.swift in Sources */,
+				A5A28F7F2BD7363D00B113B5 /* ViewStore.swift in Sources */,
 				A5A28F4A2BD4EF5E00B113B5 /* Item.swift in Sources */,
 				A5A28F7D2BD521A400B113B5 /* Reduce.swift in Sources */,
 				1B97B7532BD5EB15003813C8 /* Store.swift in Sources */,
+				A5A28F872BD7A6F100B113B5 /* StoreTask.swift in Sources */,
 				1B97B7552BD5EB5E003813C8 /* RootStore.swift in Sources */,
 				A5A28F7B2BD5209300B113B5 /* ContentReducer.swift in Sources */,
 				A5A28F722BD4F67800B113B5 /* Reducer.swift in Sources */,
 				1B97B7572BD5F47B003813C8 /* DemandBuffer.swift in Sources */,
+				A5A28F832BD73CE200B113B5 /* AnyCasePath.swift in Sources */,
 				A5A28F792BD500D000B113B5 /* ContentModel.swift in Sources */,
 				A5A28F462BD4EF5E00B113B5 /* MakeMyTCAApp.swift in Sources */,
+				A5A28F8B2BD7DEE400B113B5 /* LockIsolated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
